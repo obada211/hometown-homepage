@@ -1,0 +1,161 @@
+/* Fonts */
+@font-face {
+  font-family: "fira_sansregular";
+  src: url("firasans-regular-webfont.woff2") format("woff2"),
+    url("firasans-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "fira_sansbold";
+  src: url("firasans-bold-webfont.woff2") format("woff2"),
+    url("firasans-bold-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "fira_sansbold";
+  src: url("firasans-bold-webfont.woff2") format("woff2"),
+    url("firasans-bold-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "fira_sansregular";
+  src: url("firasans-regular-webfont.woff2") format("woff2"),
+    url("firasans-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Base */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin-inline: auto;
+  background: linear-gradient(rgb(143, 69, 0), rgb(231, 235, 0));
+  color: #fff;
+  font-family: "fira_sansregular", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: "fira_sansbold", sans-serif;
+}
+
+h1 {
+  font-size: 3em;
+}
+
+h2 {
+  font-size: 2em;
+  text-transform: uppercase;
+}
+
+p {
+  font-size: 1.3em;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+
+/* Header */
+header {
+  background: url("https://example.com/maaloula-view.jpg") no-repeat center
+    center/cover;
+  height: 100vh;
+  color: white;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+header h1 {
+  font-size: 3em;
+  margin: 0;
+}
+header p {
+  font-size: 1.5em;
+  margin: 10px 0;
+}
+header .cta {
+  margin-top: 20px;
+}
+header .cta a {
+  text-decoration: none;
+  color: white;
+  background: #007bff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 1.2em;
+  transition: background 0.3s;
+}
+header .cta a:hover {
+  background: #0056b3;
+}
+
+section {
+  text-align: center;
+  margin-block: 8em;
+}
+section h2 {
+  font-size: 2.5em;
+  margin-bottom: 3em;
+}
+
+/* Cards */
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+.card {
+  background: rgb(230, 228, 228);
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  width: 300px;
+  padding: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.card:hover {
+  transform: scale(1.05);
+}
+.card img {
+  width: 100%;
+  border-radius: 8px;
+}
+.card h3 {
+  margin: 15px 0 10px;
+}
+.card p {
+  font-size: 1em;
+  color: #666;
+}
+
+/* Footer */
+footer {
+  background: rgb(143, 69, 0);
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+}
+footer p {
+  margin: 0;
+}
