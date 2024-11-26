@@ -149,6 +149,12 @@ section h2 {
   color: #666;
 }
 
+/* Countdown */
+#countdown {
+  text-align: center;
+  margin-block: 8em;
+}
+
 /* Footer */
 footer {
   background: rgb(143, 69, 0);
