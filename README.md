@@ -1,0 +1,2 @@
+# Maloula Landing Page (Hometown Homepage)
+This project is a single-page website dedicated to showcasing the town of Maaloula, Syria. The landing page highlights the town's rich history, unique culture, and must-visit attractions. It features sections such as "Things to Do," "Local Culture and Traditions," and "Plan Your Trip," along with a responsive design that ensures a seamless user experience on both desktop and mobile devices.
